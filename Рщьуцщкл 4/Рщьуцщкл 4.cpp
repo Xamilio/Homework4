@@ -43,6 +43,6 @@ int main()
 	cout << "Несдал:  ";
 	cin >> n;
 	int p = s + n;
-	cout << "Несдал " << n * 100 / p << "%" << endl;
+	cout << "Несдал " << (n / p) * 100 << "%" << endl;
 
 }
